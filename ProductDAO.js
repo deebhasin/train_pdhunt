@@ -3,7 +3,7 @@ const util = require("util");
 const connection = mysql.createConnection({
   host: "db-prodhunt.cxwamqo9tkp9.ap-south-1.rds.amazonaws.com",
   user: "admin",
-  password: "Qwert123!",
+  password: "11111222%^^",
   database: "pdhunt",
 });
 
