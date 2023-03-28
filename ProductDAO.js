@@ -1,11 +1,6 @@
 const mysql = require("mysql");
 const util = require("util");
-const connection = mysql.createConnection({
-  host: "db-prodhunt.cxwamqo9tkp9.ap-south-1.rds.amazonaws.com",
-  user: "admin",
-  password: "11111222%^^",
-  database: "pdhunt",
-});
+const connection = mysql.createConnection({});
 
 connection.connect((err) => {
   if (err) throw err;
